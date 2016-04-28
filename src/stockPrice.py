@@ -77,7 +77,7 @@ def main():
     colourRed = (220, 69, 69)
 
     #this is how often we check for new stocks
-    updateRate = 180 # seconds
+    updateRate = 10 # seconds
 
     # Create an instance of the pitft class
     mytft = pitft()
