@@ -94,7 +94,7 @@ def main():
     c = GoogleFinanceAPI()
 
     #read the ENV VAR, use GE if 'STOCK' isn't there
-    companyName = os.getenv('STOCK', "AMZN")
+    companyName = os.getenv('STOCK', "VGENX")
     print 'company name: '+companyName
 
     #The default MARKET is NASDAQ
